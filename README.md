@@ -1,2 +1,3 @@
 # Android-Studio
-It contains code to build an Android Application
+# @author: Talha Yaseen
+This repo contains codes to build an Android application for my OELP project

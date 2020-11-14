@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0ad3f3"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOCK APP"
+        android:textStyle="bold"
+        android:textSize="@android:dimen/app_icon_size"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433"
+        android:textColor="#000000"                 />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#0af3cc" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/username"
+        android:hint="Password"
+        android:background="@drawable/edit_round"
+        android:inputType="textPassword"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="30sp"
+        android:textColor="#0af3cc"   />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>

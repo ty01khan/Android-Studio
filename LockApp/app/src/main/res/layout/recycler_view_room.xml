@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/recycleViewList"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp">
+    <Button
+        android:id="@+id/room_recyclerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#0c937c"
+        android:text="Room-1"
+        android:clickable="true"/>
+</RelativeLayout>
